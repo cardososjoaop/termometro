@@ -21,6 +21,8 @@ function clickButton() {
          h1.style.borderColor = "red"
          body.style.background = "linear-gradient(to bottom,rgb(39, 39, 39), red)"
          
+    }else if(temperatura === nul){
+          null
     }
     else{
         h1.innerHTML = "Você esta hiportermia! <span>🥶</span>"
