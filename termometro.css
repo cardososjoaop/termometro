@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Boldonse", system-ui;;
+}
+
+body{
+    background: linear-gradient(to bottom, #151515, #747474);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+p{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+span{
+    font-size: 65px;
+}
+
+button{
+    color: white;
+    background:linear-gradient(to right,#00000000,#15151570,#74747400);
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+}
+
+.info{
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: solid;
+    border-color: white;
+    border-radius: 0;
+    padding: 10px;
+    letter-spacing: 2.8px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.input-term{
+    margin-bottom: 30px;
+    background: none;
+    border-radius: 12px;
+    background: linear-gradient(to right,#00000000,#15151570,#74747400);
+    height: 80px;
+    width: 500px;
+    outline: none;
+    appearance: none;
+    border: none ;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.input-term::placeholder{
+    color: white;
+}
+
+.input-term::-webkit-inner-spin-button{
+   appearance: none;
+}
+
+
+@media (max-width: 800px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    span{
+        font-size: 40px;
+    }
+
+    h1{
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .input-term{
+        font-size: 48px;
+        height: 65px;
+        width: 95%;
+    }
+}
