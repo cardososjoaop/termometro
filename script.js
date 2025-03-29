@@ -23,7 +23,7 @@ function clickButton() {
 
      }
      else {
-          h1.innerHTML = "Você esta hiportermia! <span>🥶</span>"
+          h1.innerHTML = "Você esta hipotermia! <span>🥶</span>"
           h1.style.borderColor = "lightblue"
           body.style.background = "linear-gradient(to bottom,rgb(39, 39, 39), lightblue)"
      }
