@@ -77,6 +77,11 @@ button{
 
 @media (max-width: 800px){
 
+
+    body{
+        height: 150vh;
+    }
+
     main{
         display: flex;
         flex-direction: column;
